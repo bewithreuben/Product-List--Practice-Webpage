@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: RedHatText;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row; 
+}
+
+.header{
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.products{
+    width: 70%;
+}
+
+.product_list{
+    display: flex; 
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 3.3%;
+}
+
+.product_list-item{
+    width: 30%;
+}
+
+.product_image-container{
+    width: 130px;
+    height: 125px;
+    background-color: grey;
+    border-radius: 10px;
+    
+}
+
+.cart{
+    background-color: #eee;
+    width: 30%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cart_heading{
+    margin-bottom: 10px;
+
+
+}
+
+.cart_list{
+
+}
+
+.cart_list-item{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cart_list-amount{
+    display: flex;
+}
+
+.cart_total{
+    margin: 20px 0;
+
+}
+
+@font-face{
+    font-family: RedHatText;
+    src: url("../fonts/RedHatText-Bold.ttf");
+    font-weight: 700;
+}
+@font-face{
+    font-family: RedHatText;
+    src: url("../fonts/RedHatText-Regular.ttf");
+    font-weight: 400;
+}
+@font-face{
+    font-family: RedHatText;
+    src: url("../fonts/RedHatText-SemiBold.ttf");
+    font-weight: 600;
+}
